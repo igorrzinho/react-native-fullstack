@@ -17,7 +17,7 @@ app.use(cors({
 app.use(express.json());
 
 // Conexão com MongoDB Atlas
-const MONGO_URI = 'mongodb+srv://igorrzinho:rm9LArfLLa9OTKDS@seg.iisfbzv.mongodb.net/?appName=tasks';
+const MONGO_URI = 'urlmongo';
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log('MongoDB Atlas conectado com sucesso!'))
